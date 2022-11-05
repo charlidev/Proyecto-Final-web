@@ -1,0 +1,12 @@
+.footer{
+    background-color: #2f8c93;
+    height: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: auto;
+    .fbIcon, .igIcon{
+      width: 25px;
+    }
+  }

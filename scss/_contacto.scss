@@ -1,0 +1,62 @@
+.contactForm{
+    display: flex;
+    flex-direction: row;
+    
+    .controls {
+        width: 100%;
+        background: #2f8c93;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 16px;
+        border: 1px solid white;
+        font-family: 'Roboto';
+        font-size: 18px;
+        color: white;
+    }
+}
+.form-register{
+    width: 400px;
+    height: 270px;
+    background: #2f8c93;
+    padding: 50px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    color: white;
+    box-shadow: 7px 13px 40px #000;
+    h4{
+        font-size: 22px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    p {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #f6a800;
+        text-decoration: underline;
+    }
+    .botons {
+        width: 104%;
+        background: #f6a800;
+        border: none;
+        border-radius: 15px;
+        padding: 12px;
+        color: white;
+        font-size: 18px;
+        font-weight: 550;
+    }
+}
+
+::placeholder{
+    color: white;
+  }
